@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="error-cont">
+        <h2 class="error-code">Error code : 404</h2>
+        <p class="error-message">	We could not find the resource you requested. Please refer to the documentation for the list of resources.</p>
+        <button class="button" autofocus>OKAY</button>
+    </div>
+    <section>
+        <div class="cont1">
+            <div class="temperature">NA °C</div>
+            <div class="location">
+                <div class="city">City : NA</div>
+                <div class="day">Day/Date/Month/Year : NA</div>
+            </div>
+            <div class="icons">Icon : NA</div>
+            <div class="weather_status">Weather Status : NA</div>
+        </div>
+    </section>
+    <section>
+        <div class="cont2">
+            <div class="search-area">
+                <div class="search_cont">
+                    <img src="./Icons/search.svg" alt="" class="search_icon">
+                </div>
+                <input type="text" name="" id="" maxlength="20" placeholder="Enter city name">
+            </div>
+            <hr class="line1">
+            <div class="content">
+                <div class="humidity">
+                    <div class="value">Humidity : NA %</div>
+                </div>
+                <div class="speed">
+                    <div class="value">Wind Speed : NA km/hr</div>
+                </div>
+                <div class="visibility">
+                    <div class="value">Visibility : NA km</div>
+                </div>
+                <div class="pressure">
+                    <div class="value">Pressure : NA Pa</div>
+                </div>
+            </div>
+            <hr class="line2">
+            <div class="low-high-content">
+                <div class="low">
+                    <div class="value">Lowest expected temperature : NA °C</div>
+                </div>
+                <div class="high">
+                    <div class="value">Highest expected temperature : NA °C</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/api.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
