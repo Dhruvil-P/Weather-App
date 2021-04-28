@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap%27");
+:root {
+  --dayColor: rgba(0, 0, 0, 0.534);
+  --nightColor: rgba(255, 255, 255, 0.767);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/Wallpaper.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  color: var(--nightColor);
+}
+
+body .cont1 {
+  width: 40vw;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10vw;
+}
+
+body .cont1 .temperature {
+  font-size: 7rem;
+  margin-right: 2vw;
+}
+
+body .cont1 .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-right: 5vw;
+}
+
+body .cont1 .location .city {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+body .cont1 .location .day {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 15vw;
+}
+
+body .cont1 .icons {
+  width: 100%;
+  margin-right: 2vw;
+}
+
+body .cont1 .weather_status {
+  width: 100vw;
+  font-size: 25px;
+}
+
+body .cont2 {
+  width: 40vw;
+  height: 100vh;
+  background: transparent;
+  -webkit-box-shadow: inset 10px 10px 100px rgba(255, 255, 255, 0.2);
+          box-shadow: inset 10px 10px 100px rgba(255, 255, 255, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .cont2 .search-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .cont2 .search-area .search_cont {
+  width: 5vw;
+  height: 10vh;
+  background: #ffc996;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px 0 0 20px;
+}
+
+body .cont2 .search-area .search_cont .search_icon {
+  width: 5vw;
+  height: 5vh;
+  cursor: pointer;
+}
+
+body .cont2 .search-area input {
+  width: 25vw;
+  height: 10vh;
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-box-shadow: inset 10px 10px 50px rgba(255, 255, 255, 0.2);
+          box-shadow: inset 10px 10px 50px rgba(255, 255, 255, 0.2);
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+  color: snow;
+  font-size: 2rem;
+}
+
+body .cont2 .search-area input::-webkit-input-placeholder {
+  color: snow;
+  font-size: 2rem;
+}
+
+body .cont2 .search-area input:-ms-input-placeholder {
+  color: snow;
+  font-size: 2rem;
+}
+
+body .cont2 .search-area input::-ms-input-placeholder {
+  color: snow;
+  font-size: 2rem;
+}
+
+body .cont2 .search-area input::placeholder {
+  color: snow;
+  font-size: 2rem;
+}
+
+body .cont2 hr {
+  width: 90%;
+  height: 1vh;
+  margin: 5vh;
+  background: var(--nightColor);
+  border: none;
+}
+
+body .cont2 .content .humidity, body .cont2 .content .speed, body .cont2 .content .visibility, body .cont2 .content .pressure, body .cont2 .content .low, body .cont2 .content .high, body .cont2 .low-high-content .humidity, body .cont2 .low-high-content .speed, body .cont2 .low-high-content .visibility, body .cont2 .low-high-content .pressure, body .cont2 .low-high-content .low, body .cont2 .low-high-content .high {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .cont2 .content .humidity .value, body .cont2 .content .speed .value, body .cont2 .content .visibility .value, body .cont2 .content .pressure .value, body .cont2 .content .low .value, body .cont2 .content .high .value, body .cont2 .low-high-content .humidity .value, body .cont2 .low-high-content .speed .value, body .cont2 .low-high-content .visibility .value, body .cont2 .low-high-content .pressure .value, body .cont2 .low-high-content .low .value, body .cont2 .low-high-content .high .value {
+  font-size: 1.5rem;
+  margin: 1vh;
+  text-align: center;
+}
+
+body .error-cont {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: white;
+  width: 500px;
+  height: 300px;
+  -webkit-box-shadow: 100px 100px 100px 0 rgba(255, 255, 255, 0.062) inset, 100px 100px 100px 0 rgba(0, 0, 0, 0.25) inset;
+          box-shadow: 100px 100px 100px 0 rgba(255, 255, 255, 0.062) inset, 100px 100px 100px 0 rgba(0, 0, 0, 0.25) inset;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--dayColor);
+  padding: 50px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .error-cont .error-code {
+  font-size: 50px;
+  text-align: center;
+}
+
+body .error-cont .error-message {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+body .error-cont button {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 50px;
+  margin-top: 2vh;
+  padding: 1vh;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: var(--dayColor);
+}
+
+body .error-cont button:hover {
+  background: grey;
+  color: var(--nightColor);
+}
+
+body .error-cont button:focus {
+  border: 5px solid var(--dayColor);
+}
+
+.blur {
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+}
+
+.visible {
+  visibility: visible !important;
+  opacity: 1 !important;
+  -webkit-transition: 0.5s !important;
+  transition: 0.5s !important;
+}
+/*# sourceMappingURL=style.css.map */
