@@ -17,4 +17,4 @@ It's a weather app made using vanilla JS.
 <br>
 **When It's Night**
 <br>
-<a href="https://ibb.co/tMNrxkZ"><img src="https://i.ibb.co/nsVJnZ3/Screenshot-2021-04-29-000646.png" alt="Screenshot-2021-04-29-000646" border="0"></a>
+<a href="https://ibb.co/8rzNgzZ"><img src="https://i.ibb.co/HtNBTN8/Screenshot-2021-04-29-000646.png" alt="Screenshot-2021-04-29-000646" border="0"></a>
