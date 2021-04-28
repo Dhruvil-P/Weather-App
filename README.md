@@ -13,7 +13,7 @@ It's a weather app made using vanilla JS.
 <br>
 **When It's Day**
 <br>
-<a href="https://ibb.co/PMQpDj9"><img src="https://i.ibb.co/JqQL3ty/Screenshot-2021-04-29-000753.png" alt="Screenshot-2021-04-29-000753" border="0"></a>
+<a href="https://ibb.co/qnCyFkK"><img src="https://i.ibb.co/kyJH6Qj/Screenshot-2021-04-29-021043.png" alt="Screenshot-2021-04-29-021043" border="0"></a>
 <br>
 **When It's Night**
 <br>
